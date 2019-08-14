@@ -1,0 +1,180 @@
+// This file is for initial variable values.
+// All variables should have a valid css value,
+// and use !default so they can be overwritten
+
+// `$pop-global--concept--state--size--PropiertyCamelCase`
+
+// PlusONE Priorities colors
+
+// Colors
+// This colors system and pallet is based on material deisgn color system
+// https://material.io/guidelines/style/color.htm
+
+$pop-global--white--Color: #fff !default;
+$pop-global--black--Color: #000 !default;
+
+
+$pop-global--primary--Color:                  #039BE5 !default; // Blue 500
+$pop-global--primary--dark--Color:             #1976D2 !default; // Blue 700
+$pop-global--primary--light--Color:            #64B5F6 !default; // Blue 300
+$pop-global--accent--Color:                   #009688 !default; // Teal 500
+
+$pop-global--text--Color:                     rgba($pop-global--black--Color, .87) !default;
+$pop-global--text--secondary--Color:           rgba($pop-global--black--Color, .54) !default;
+$pop-global--disabled--Color:            rgba($pop-global--black--Color, .38) !default;
+$pop-global--divider--Color:             rgba($pop-global--black--Color, .12) !default;
+
+$pop-global--text--light--Color:             $pop-global--white--Color !default;
+$pop-global--text--secondary-light--Color:   rgba($pop-global--white--Color, .70) !default;
+$pop-global--disabled--light--Color:    rgba($pop-global--white--Color, .50) !default;
+$pop-global--divider--light--Color:     rgba($pop-global--white--Color, .12) !default;
+
+$pop-global--background--Color:            #fafafa !default;
+$pop-global--dark--BackgroundColor:       #212121 !default;
+
+
+// Gray
+$pop-global--gray--100--Color: #F5F5F5 !default;
+$pop-global--gray--200--Color: #EEEEEE !default;
+$pop-global--gray--300--Color: #E0E0E0 !default;
+$pop-global--gray--400--Color: #BDBDBD !default;
+$pop-global--gray--500--Color: #9E9E9E !default;
+$pop-global--gray--600--Color: #757575 !default;
+$pop-global--gray--700--Color: #616161 !default;
+$pop-global--gray--800--Color: #424242 !default;
+$pop-global--gray--900--Color: #212121 !default;
+
+$pop-global--secondary--Color:     $pop-global--gray--400--Color !default;
+$pop-global--success--Color:       #7CB342 !default;
+$pop-global--info--Color:          #00BCD4 !default;
+$pop-global--warning--Color:       #FDD835 !default;
+$pop-global--danger--Color:        #F44336 !default;
+$pop-global--light--Color:         $pop-global--gray--200--Color !default;
+$pop-global--dark--Color:          $pop-global--gray--900--Color !default;
+
+
+
+// OnceLogix colors - links
+$pop-global--link--Color: $pop-global--primary--Color !default;
+
+// OnceLogix uses the default root size of the browser, it assumes a 16px base
+// since most browser root size is 16. This variables is just to make the
+// transformation from px to rem.
+$pop-global--font-size--root:  16 !default; //for fonts
+$pop-global--space-size--root: 16 !default; // for spaces
+
+
+// Spacers
+//
+// Use these spacers to define all margins and paddings
+
+$pop-global--spacer--xxxs:   pop-size-prem(2px) !default; // .125rem (12.5%)
+$pop-global--spacer--xxs:    pop-size-prem(4px) !default; // .25rem  (25%)
+$pop-global--spacer--xs:     pop-size-prem(8px) !default; // .50rem  (50%)
+$pop-global--spacer--sm:     pop-size-prem(12px) !default; // .75rem  (75%)
+$pop-global--spacer--md:     pop-size-prem(16px) !default; // 1rem    (100%)
+$pop-global--spacer--lg:     pop-size-prem(20px) !default; // 1.25rem (125%)
+$pop-global--spacer--xl:     pop-size-prem(24px) !default; // 1.5rem  (150%)
+$pop-global--spacer--xxl:    pop-size-prem(28px) !default; // 1.75rem (175%)
+$pop-global--spacer--xxxl:   pop-size-prem(32px) !default; // 2rem    (200%)
+
+// Page
+
+$pop-global--base--Transition: all .2s ease-in-out !default;
+
+
+// Page
+//
+
+// $pop-global-page-border-color: $pop-color-gray-100 !default;
+
+// Components
+//
+
+// $pop-global-component-color:             $pop-color-text !default;
+// $pop-global-component-light-color:       $pop-color-text-secondary !default;
+// $pop-global-component-background-color:  $pop-color-background !default;
+
+
+// Border
+//
+
+// $pop-global-border-color:      $pop-global--divider--Color !default;
+$pop-global--BorderWidth:      1px !default;
+$pop-global--lg--BorderWidth:   4px !default;
+$pop-global--sm--BorderWidth:   2px !default;
+
+// $pop-global-component-inverse-color:       $pop-color-text-inverse !default;
+// $pop-global-component-inverse-light-color: $pop-color-text-secondary-inverse !default;
+// $pop-global-component-inverse-background-color: $pop-color-background-inverse !default;
+// $pop-global-component-inverse-border-color: $pop-color-text-divider-inverse !default;
+
+$pop-global--component--MinHeight: 3.5rem !default;
+
+
+// States
+
+// $pop-global--hover--Color:                   $pop-color-red-100 !default;
+// $pop-global-hover-background-color:        $pop-color-blue-100 !default;
+// $pop-global-hover-border-color:            $pop-color-red-300 !default;
+
+$pop-global--hover--Color:          $pop-global--primary--light--Color !default;
+
+// $pop-global-active-color:              $pop-color-primary !default;
+$pop-global--active--BackgroundColor:      $pop-global--primary--Color !default;
+$pop-global--active--BorderColor:          $pop-global--primary--Color !default;
+
+// $pop-global--disabled--Color:                $pop-global--disabled--Color !default;
+// $pop-global-disabled-background-color:     $pop-global--divider--light--Color !default;
+// $pop-global-disabled-border-color:         $pop-color-black-200 !default;
+
+// $pop-global-disabled-light-color:       $pop-color-text-disabled-inverse !default;
+
+// $pop-global--success--Color:       $pop-color-success !default;
+
+// Fonts
+//
+// Font, line-height, and color for body text, headings, and more.
+// stylelint-disable value-keyword-case
+
+// Imports Noto font family
+@import url("https://fonts.googleapis.com/css?family=Noto+Sans:400,700");
+
+$pop-global--sans-serif--FontFamily: "Noto Sans", Noto Sans, -apple-system,
+  BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif,
+  "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol" !default;
+
+// stylelint-enable value-keyword-case
+
+$pop-global--base--FontSize: pop-font-prem(16px) !default;
+
+$pop-global--hero-title--FontSize:       pop-font-prem(48px) !default;
+$pop-global--main-title--FontSize:       pop-font-prem(32px) !default;
+$pop-global--secondary-title--FontSize:  pop-font-prem(24px) !default;
+$pop-global--sub-title--FontSize:        pop-font-prem(19px) !default;
+$pop-global--body--FontSize:             pop-font-prem(16px) !default;
+$pop-global--caption--FontSize:          pop-font-prem(14px) !default;
+
+$pop-global--normal--FontWeight: 400 !default;
+$pop-global--bold--FontWeight:   700 !default;
+
+$pop-global--sm--LineHeight:   1.2 !default;
+$pop-global--md--LineHeight: 1.5 !default;
+$pop-global--lg--LineHeight:   1.8 !default;
+
+
+
+
+// ============ lobal variables ==============
+// OnceLogix components    |     Boostrap components
+
+
+
+// ==========================================
+// Material design color System
+
+// Dark   3\00
+// Color  500
+// Light  700
+// Accent color
+// grays for fonts and backgrounds.

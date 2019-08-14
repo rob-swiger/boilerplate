@@ -1,0 +1,11 @@
+@function pop-strip-unit($num) {
+  @return $num / ($num * 0 + 1);
+}
+
+@function pop-size-prem($pxval, $base: $pop-global--space-size--root) {
+  @return pop-strip-unit($pxval) / $base * 1rem;
+}
+
+@function pop-font-prem($pxval, $base: $pop-global--font-size--root) {
+  @return pop-strip-unit($pxval) / $base * 1rem;
+}

@@ -1,0 +1,22 @@
+// Mixins
+// Color theme for navbar
+
+
+@mixin pop-main-nav-variant($primary-color, $secondary-color, $hover-color: $primary-color, $active-color: $primary-color) {
+  &__title {
+    color: $secondary-color;
+  }
+
+  &__link {
+    color: $primary-color;
+
+    &:hover {
+      color: $hover-color;
+      text-decoration: none;
+    }
+
+    &.pop-is-active {
+      color: $active-color;
+    }
+  }
+}
